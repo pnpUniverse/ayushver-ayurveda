@@ -1,0 +1,17 @@
+<!-- ======= Book A Table Section ======= -->
+<section id="book-a-table" class="book-a-table">
+    <div class="container" data-aos="fade-up" *ngIf="product">
+        <div class="section-header">
+            <p>Product <span>Description</span></p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/img/{{product.product_image}}" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+            </div>
+            <div class="col-md-8 px-5">
+                <h2>{{product.product_name}}</h2>
+                <h5 [innerHtml]="product.product_description"></h5>
+            </div>
+        </div>
+    </div>
+</section><!-- End Book A Table Section -->

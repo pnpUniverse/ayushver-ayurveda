@@ -1,0 +1,33 @@
+<!-- ======= Menu Section ======= -->
+<section id="menu" class="menu">
+    <div class="container" data-aos="fade-up">
+        <div class="section-header">
+            <p>Check Our <span>Products</span></p>
+        </div>
+        <ul class="nav nav-pills justify-content-center">
+            <li *ngFor="let category of categoryList">
+                <a [class.active]="!category.isActive" data-toggle="tab" (click)="changeCategory(category.slug)" >{{category.name}}</a>
+            </li>
+        </ul>
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+            <div class="tab-pane fade active show" id="menu-starters">
+                <div class="row p-3">
+                    <div class="col-lg-4 menu-item" *ngFor="let product of products">
+                        <a routerLinkActive="active" routerLink="/product/{{product.category}}/{{product.product_id}}"><img src="assets/img/{{product.product_image}}" class="menu-img img-fluid" alt=""></a>
+                        <h4>{{product.product_name}}</h4>
+                        <p class="ingredients">
+                            {{product.product_description}}
+                        </p>
+                        <p class="price">
+                            Rs. {{product.product_price}}
+                        </p>
+                    </div><!-- Menu Item -->
+                </div>
+                <div *ngIf="!products.length">
+                    <span class="text-danger">No Products for the Selected Category Please try with another Category</span>
+                </div>
+            </div><!-- End Starter Menu Content -->
+        </div>
+    </div>
+</section>
+<!-- End Menu Section -->
