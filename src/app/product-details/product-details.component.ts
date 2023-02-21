@@ -7,7 +7,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent implements OnInit {
-
+  strikeCheckout:any = null;
   categoryList = [
     {
       name:'Diabetes Care',
@@ -59,8 +59,48 @@ export class ProductDetailsComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.stripePaymentGateway();
     this.product = this.products.find( (item:any )=> {
       return ( item.category == this.activatedRoute.snapshot.params.category && item.product_id == this.activatedRoute.snapshot.params.id )
     })
+  }
+
+  checkout(amount) {
+    const strikeCheckout = (<any>window).StripeCheckout.configure({
+      key: 'pk_test_21dVAuoEwZGsJWJFIznHjPCt',
+      locale: 'auto',
+      token: function (stripeToken: any) {
+        console.log(stripeToken)
+        alert('Stripe token generated!');
+      }
+    });
+  
+    strikeCheckout.open({
+      name: this.product.product_name,
+      description: 'Payment widgets',
+      amount: +amount * 100
+    });
+  }
+  
+  stripePaymentGateway() {
+    if(!window.document.getElementById('stripe-script')) {
+      const scr = window.document.createElement("script");
+      scr.id = "stripe-script";
+      scr.type = "text/javascript";
+      scr.src = "https://checkout.stripe.com/checkout.js";
+
+      scr.onload = () => {
+        this.strikeCheckout = (<any>window).StripeCheckout.configure({
+          key: 'pk_test_21dVAuoEwZGsJWJFIznHjPCt',
+          locale: 'auto',
+          token: function (token: any) {
+            console.log(token)
+            alert('Payment via stripe successfull!');
+          }
+        });
+      }
+        
+      window.document.body.appendChild(scr);
+    }
   }
 }
