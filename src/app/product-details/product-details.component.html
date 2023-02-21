@@ -11,6 +11,7 @@
             <div class="col-md-8 px-5">
                 <h2>{{product.product_name}}</h2>
                 <h5 [innerHtml]="product.product_description"></h5>
+                <button (click)="checkout(product.product_price)" class="btn btn-primary btn-block">Pay {{product.product_price}}</button>
             </div>
         </div>
     </div>
