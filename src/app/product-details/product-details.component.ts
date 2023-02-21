@@ -65,7 +65,7 @@ export class ProductDetailsComponent implements OnInit {
     })
   }
 
-  checkout(amount) {
+  checkout(amount: any) {
     const strikeCheckout = (<any>window).StripeCheckout.configure({
       key: 'pk_test_21dVAuoEwZGsJWJFIznHjPCt',
       locale: 'auto',
