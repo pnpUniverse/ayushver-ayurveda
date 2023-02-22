@@ -528,7 +528,8 @@ section {
 
   .navbar .active,
   .navbar .active:focus {
-    color: #000;
+    color: #ffffff;
+    background-color: cadetblue;
     border-color: var(--color-primary);
   }
 
