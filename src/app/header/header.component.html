@@ -5,16 +5,16 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li>
-                    <a routerLinkActive="active" routerLink="/about_us">About</a>
+                    <a routerLinkActive="active" (click)="closeNav()" routerLink="/about_us">About</a>
                 </li>
                 <li>
-                    <a routerLinkActive="active" routerLink="/products">Product</a>
+                    <a routerLinkActive="active" (click)="closeNav()" routerLink="/products">Product</a>
                 </li>
                 <li>
-                    <a routerLinkActive="active" routerLink="/services">Services</a>
+                    <a routerLinkActive="active" (click)="closeNav()" routerLink="/services">Services</a>
                 </li>
                 <li>
-                    <a routerLinkActive="active" routerLink="/contact_us">Contact</a>
+                    <a routerLinkActive="active" (click)="closeNav()" routerLink="/contact_us">Contact</a>
                 </li>
             </ul>
         </nav><!-- .navbar -->
