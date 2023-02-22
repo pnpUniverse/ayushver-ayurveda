@@ -7,9 +7,7 @@ import * as $ from 'jquery';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
   constructor() { }
-
   ngOnInit(): void {
   }
 
@@ -18,6 +16,12 @@ export class HeaderComponent implements OnInit {
       $("body").removeClass("mobile-nav-active");
     } else {
       $("body").addClass("mobile-nav-active");
+    }
+  }
+
+  closeNav() {
+    if($("body").hasClass("mobile-nav-active")) {      
+      $("body").removeClass("mobile-nav-active");
     }
   }
 }
