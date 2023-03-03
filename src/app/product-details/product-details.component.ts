@@ -78,7 +78,8 @@ export class ProductDetailsComponent implements OnInit {
     strikeCheckout.open({
       name: this.product.product_name,
       description: 'Payment widgets',
-      amount: +amount * 100
+      amount: +amount * 100,
+      currency:'inr'
     });
   }
   
