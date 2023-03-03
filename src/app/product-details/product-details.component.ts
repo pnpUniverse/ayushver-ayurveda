@@ -92,7 +92,7 @@ export class ProductDetailsComponent implements OnInit {
 
       scr.onload = () => {
         this.strikeCheckout = (<any>window).StripeCheckout.configure({
-          key: 'pk_test_21dVAuoEwZGsJWJFIznHjPCt',
+          key: 'pk_live_51MhZtKSE2I1WSyGbdVMOmcXO3oJK1IVSIppcqXQICwVKIZ4BRwRx86xS6DDVbYeCsGSR2Rkpi4238VrB0cHDVTAT00zJM505IH',
           locale: 'auto',
           token: function (token: any) {
             console.log(token)
