@@ -67,7 +67,7 @@ export class ProductDetailsComponent implements OnInit {
 
   checkout(amount: any) {
     const strikeCheckout = (<any>window).StripeCheckout.configure({
-      key: 'pk_test_21dVAuoEwZGsJWJFIznHjPCt',
+      key: 'pk_live_51MhZtKSE2I1WSyGbdVMOmcXO3oJK1IVSIppcqXQICwVKIZ4BRwRx86xS6DDVbYeCsGSR2Rkpi4238VrB0cHDVTAT00zJM505IH',
       locale: 'auto',
       token: function (stripeToken: any) {
         console.log(stripeToken)
