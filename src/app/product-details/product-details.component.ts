@@ -79,7 +79,10 @@ export class ProductDetailsComponent implements OnInit {
       name: this.product.product_name,
       description: 'Payment widgets',
       amount: +amount * 100,
-      currency:'inr'
+      currency:'inr',
+      address: {
+        mode: 'shipping',
+      }
     });
   }
   
