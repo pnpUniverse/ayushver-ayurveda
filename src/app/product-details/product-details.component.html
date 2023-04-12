@@ -11,8 +11,14 @@
             <div class="col-md-8 px-5">
                 <h2>{{product.product_name}}</h2>
                 <h5 [innerHtml]="product.product_description"></h5>
-                <button (click)="checkout(product.product_price)" class="btn btn-primary btn-block">Pay {{product.product_price}}</button>
+                <button class="payButton" (click)="proceed()">Pay {{product.product_price | currency : '&#8377;'}}</button>
             </div>
         </div>
     </div>
+    <div class="novopay-response-modal modal fade" role="dialog" [ngClass]="{'show': showModal}" id="response-modal" [ngStyle]="{'display': 'none'}"> {{response}}
+	</div>
+
+    <div class="novopay-response-modal modal fade" role="dialog" [ngClass]="{'show': showModal}"id="razorpay-response" [ngStyle]="{'display': 'none'}">{{razorpayResponse}}
+	</div>
+
 </section><!-- End Book A Table Section -->
