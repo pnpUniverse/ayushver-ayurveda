@@ -1,6 +1,5 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { IPayPalConfig, ICreateOrderRequest } from 'ngx-paypal';
 import { ExternalLibraryService } from './util';
 declare let Razorpay: any;
 @Component({
@@ -9,7 +8,6 @@ declare let Razorpay: any;
   styleUrls: ['./product-details.component.css']
 })
 export class ProductDetailsComponent implements OnInit {
-  public payPalConfig?: IPayPalConfig;
   strikeCheckout:any = null;
   response: any;
   razorpayResponse: any;
