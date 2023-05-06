@@ -10,6 +10,9 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { ProductsComponent } from './products/products.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { HeaderComponent } from './header/header.component';
+import { RefundCancellationPolicyComponent } from './refund-cancellation-policy/refund-cancellation-policy.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsConditionComponent } from './terms-condition/terms-condition.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { HeaderComponent } from './header/header.component';
     ProductDetailsComponent,
     ProductsComponent,
     AboutusComponent,
-    HeaderComponent
+    HeaderComponent,
+    RefundCancellationPolicyComponent,
+    PrivacyPolicyComponent,
+    TermsConditionComponent
   ],
   imports: [
     BrowserModule,

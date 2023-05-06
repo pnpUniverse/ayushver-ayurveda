@@ -47,6 +47,38 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       product_description:'The new Madhulife formulation is even more advanced with 8Ayurvedic herbs...',
       product_image:'madhur_life_diabetic_1.jpg',
       product_price:'500',
+    },
+    {
+      product_id:'2',
+      product_name:'MadhurLife Diabetic',
+      category: 'diabetes_care',
+      product_description:'The new Madhulife formulation is even more advanced with 8Ayurvedic herbs...',
+      product_image:'madhur_life_diabetic_1.jpg',
+      product_price:'500',
+    },
+    {
+      product_id:'3',
+      product_name:'MadhurLife Diabetic',
+      category: 'diabetes_care',
+      product_description:'The new Madhulife formulation is even more advanced with 8Ayurvedic herbs...',
+      product_image:'madhur_life_diabetic_1.jpg',
+      product_price:'500',
+    },
+    {
+      product_id:'4',
+      product_name:'MadhurLife Diabetic',
+      category: 'diabetes_care',
+      product_description:'The new Madhulife formulation is even more advanced with 8Ayurvedic herbs...',
+      product_image:'madhur_life_diabetic_1.jpg',
+      product_price:'500',
+    },
+    {
+      product_id:'5',
+      product_name:'MadhurLife Diabetic',
+      category: 'diabetes_care',
+      product_description:'The new Madhulife formulation is even more advanced with 8Ayurvedic herbs...',
+      product_image:'madhur_life_diabetic_1.jpg',
+      product_price:'500',
     }
   ];
 

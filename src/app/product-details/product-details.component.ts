@@ -53,6 +53,38 @@ export class ProductDetailsComponent implements OnInit {
       product_description:'<p class="ingredients">The new Madhulife formulation is even more advanced with 8Ayurvedic herbs that have been scientifically proven to help manage blood sugar levels.</p></br><p class="ingredients">Madhulife  contains ingredients like Methi and Gudmar, karela,jamun,which are known to slow down carb absorption and reduce appetite. They also help regulate blood sugar levels. Madhulife  also helps improve metabolism and counter symptoms of uncontrolled sugar levels like excessive urination, thirst, tiredness, and fatigue, thus enhancing the quality of life.</p></br><p class="ingredients">Madhulife contains Giloy and Haridra, ingredients proven to nourish and strengthen vital organs health.  Madhulife tablet is also manage the weight as well as blood sugar in the body  This Ayurvedic blood sugar regulator is made with all-natural ingredients and is not known to cause any side effects. Madhulife tablet is small in size easy to take with no bitter taste.</p>',
       product_image:'madhur_life_diabetic_1.jpg',
       product_price:'50',
+    },
+    {
+      product_id:'2',
+      product_name:'MadhurLife Diabetic',
+      category: 'diabetes_care',
+      product_description:'<p class="ingredients">The new Madhulife formulation is even more advanced with 8Ayurvedic herbs that have been scientifically proven to help manage blood sugar levels.</p></br><p class="ingredients">Madhulife  contains ingredients like Methi and Gudmar, karela,jamun,which are known to slow down carb absorption and reduce appetite. They also help regulate blood sugar levels. Madhulife  also helps improve metabolism and counter symptoms of uncontrolled sugar levels like excessive urination, thirst, tiredness, and fatigue, thus enhancing the quality of life.</p></br><p class="ingredients">Madhulife contains Giloy and Haridra, ingredients proven to nourish and strengthen vital organs health.  Madhulife tablet is also manage the weight as well as blood sugar in the body  This Ayurvedic blood sugar regulator is made with all-natural ingredients and is not known to cause any side effects. Madhulife tablet is small in size easy to take with no bitter taste.</p>',
+      product_image:'madhur_life_diabetic_1.jpg',
+      product_price:'50',
+    },
+    {
+      product_id:'3',
+      product_name:'MadhurLife Diabetic',
+      category: 'diabetes_care',
+      product_description:'<p class="ingredients">The new Madhulife formulation is even more advanced with 8Ayurvedic herbs that have been scientifically proven to help manage blood sugar levels.</p></br><p class="ingredients">Madhulife  contains ingredients like Methi and Gudmar, karela,jamun,which are known to slow down carb absorption and reduce appetite. They also help regulate blood sugar levels. Madhulife  also helps improve metabolism and counter symptoms of uncontrolled sugar levels like excessive urination, thirst, tiredness, and fatigue, thus enhancing the quality of life.</p></br><p class="ingredients">Madhulife contains Giloy and Haridra, ingredients proven to nourish and strengthen vital organs health.  Madhulife tablet is also manage the weight as well as blood sugar in the body  This Ayurvedic blood sugar regulator is made with all-natural ingredients and is not known to cause any side effects. Madhulife tablet is small in size easy to take with no bitter taste.</p>',
+      product_image:'madhur_life_diabetic_1.jpg',
+      product_price:'50',
+    },
+    {
+      product_id:'4',
+      product_name:'MadhurLife Diabetic',
+      category: 'diabetes_care',
+      product_description:'<p class="ingredients">The new Madhulife formulation is even more advanced with 8Ayurvedic herbs that have been scientifically proven to help manage blood sugar levels.</p></br><p class="ingredients">Madhulife  contains ingredients like Methi and Gudmar, karela,jamun,which are known to slow down carb absorption and reduce appetite. They also help regulate blood sugar levels. Madhulife  also helps improve metabolism and counter symptoms of uncontrolled sugar levels like excessive urination, thirst, tiredness, and fatigue, thus enhancing the quality of life.</p></br><p class="ingredients">Madhulife contains Giloy and Haridra, ingredients proven to nourish and strengthen vital organs health.  Madhulife tablet is also manage the weight as well as blood sugar in the body  This Ayurvedic blood sugar regulator is made with all-natural ingredients and is not known to cause any side effects. Madhulife tablet is small in size easy to take with no bitter taste.</p>',
+      product_image:'madhur_life_diabetic_1.jpg',
+      product_price:'50',
+    },
+    {
+      product_id:'5',
+      product_name:'MadhurLife Diabetic',
+      category: 'diabetes_care',
+      product_description:'<p class="ingredients">The new Madhulife formulation is even more advanced with 8Ayurvedic herbs that have been scientifically proven to help manage blood sugar levels.</p></br><p class="ingredients">Madhulife  contains ingredients like Methi and Gudmar, karela,jamun,which are known to slow down carb absorption and reduce appetite. They also help regulate blood sugar levels. Madhulife  also helps improve metabolism and counter symptoms of uncontrolled sugar levels like excessive urination, thirst, tiredness, and fatigue, thus enhancing the quality of life.</p></br><p class="ingredients">Madhulife contains Giloy and Haridra, ingredients proven to nourish and strengthen vital organs health.  Madhulife tablet is also manage the weight as well as blood sugar in the body  This Ayurvedic blood sugar regulator is made with all-natural ingredients and is not known to cause any side effects. Madhulife tablet is small in size easy to take with no bitter taste.</p>',
+      product_image:'madhur_life_diabetic_1.jpg',
+      product_price:'50',
     }
   ];
 

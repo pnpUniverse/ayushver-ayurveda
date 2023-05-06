@@ -6,6 +6,9 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
+import { TermsConditionComponent } from './terms-condition/terms-condition.component';
+import { RefundCancellationPolicyComponent } from './refund-cancellation-policy/refund-cancellation-policy.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -14,6 +17,9 @@ const routes: Routes = [
   { path: 'about_us', component: AboutusComponent },
   { path: 'contact_us', component: ContactUsComponent },
   { path: 'services', component: ServicesComponent },
+  { path: 'privacy_policy', component: PrivacyPolicyComponent },
+  { path: 'terms_condition', component: TermsConditionComponent },
+  { path: 'refund_policy', component: RefundCancellationPolicyComponent },
   { path: '**', redirectTo: 'home' }
 ];
 
