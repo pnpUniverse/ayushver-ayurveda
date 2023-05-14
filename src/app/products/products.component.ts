@@ -42,7 +42,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
   products:any = [
     {
       product_id:'1',
-      product_name:'MadhurLife Diabetic',
+      product_name:'Madhulife Tablets',
       category: 'diabetes_care',
       product_description:'The new Madhulife formulation is even more advanced with 8Ayurvedic herbs...',
       product_image:'madhur_life_diabetic_1.jpg',
@@ -52,7 +52,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       product_id:'2',
       product_name:'WELL HEART Powder',
       category: 'heart_care',
-      product_description:'Well heart Power is a trusted supplement for cardiovascular problems...',
+      product_description:'Well heart Powder is a trusted supplement for cardiovascular problems...',
       product_image:'heart_care_tablet_1.jpg',
       product_price:'500',
     },
@@ -62,7 +62,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       category: 'skin_care',
       product_description:'Your skin requires proper care and nourishment to look its best...',
       product_image:'skin_care_product_1.jpg',
-      product_price:'500',
+      product_price:'465',
     },
     {
       product_id:'4',
@@ -78,7 +78,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       category: 'liver_care',
       product_description:'Ayurvedic liver therapy, Provides all round protection to liver...',
       product_image:'liver_care_tablet_1.jpg',
-      product_price:'500',
+      product_price:'700',
     },
     {
       product_id:'6',
@@ -86,7 +86,7 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       category: 'sexual_health',
       product_description:'Testosterone is the primary sex chemical in men&#39;s bodies...',
       product_image:'sexual_health_1.jpeg',
-      product_price:'500',
+      product_price:'900',
     }
   ];
   copiedArray = this.products.map((x:any) => Object.assign({}, x));
