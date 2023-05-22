@@ -54,7 +54,7 @@ export class ProductDetailsComponent implements OnInit {
       product_description:'<p>The new Madhulife formulation is even more advanced with 8Ayurvedic herbs that have been scientifically proven to help manage blood sugar levels.</p><p>Madhulife contains ingredients like Methi and Gudmar, karela,jamun,which are known to slow down carb absorption and reduce appetite. They also help regulate blood sugar levels. Madhulife also helps improve metabolism and counter symptoms of uncontrolled sugar levels like excessive urination, thirst, tiredness, and fatigue, thus enhancing the quality of life.</p><p>Madhulife contains Giloy and Haridra, ingredients proven to nourish and strengthen vital organs health. Madhulife tablet is also manage the weight as well as blood sugar in the body This Ayurvedic blood sugar regulator is made with all-natural ingredients and is not known to cause any side effects. Madhulife tablet is small in size easy to take with no bitter taste.</p><p>Pack of 60 Tablets</p>',
       product_image:'madhur_life_diabetic_1.jpg',
       // product_price:'400',
-      product_price:'50'
+      product_price:'10'
     },
     {
       product_id:'2',
@@ -63,7 +63,7 @@ export class ProductDetailsComponent implements OnInit {
       product_description:'<p>Well heart Powder is a trusted supplement for cardiovascular problems. It helps regulate bad cholesterol in the blood and prevents plaque formation in heart arteries. It clears toxins from your system and strengthens heart muscles. It also helps any inflammation and controls angina pain.</p><p><strong>Benefits: </strong> Useful in cardiovascular diseases. It helps regulate bad cholesterol in the blood. It clears toxins from your system and strengthens heart muscles</p><p><strong>Pack of 400gm Powder</strong></p>',
       product_image:'heart_care_tablet_1.jpg',
       // product_price:'500',
-      product_price:'50'
+      product_price:'10'
     },
     {
       product_id:'3',
@@ -72,7 +72,7 @@ export class ProductDetailsComponent implements OnInit {
       product_description:'<p>Your skin requires proper care and nourishment to look its best. Prolonged sun exposure, pollution and dietary negligence can cause your skin to become dull, dry, and prone to aging.</p><p>Swarnamukhi Face Cream is a potent herbal formula that alleviates various skin problems, like dryness, pigmentation, sun damage and dark spots, while restoring the natural glow.</p><p>It’s a rejuvenating &amp; brightening Ayurvedic night cream that works overnight to lighten dark spots, remove tan and enhance the complexion.</p><p>You can buy this Ayurvedic face cream from Ayushver Ayurveda and deliver it to your doorstep anywhere in India.</p><p><strong>Creame of 30 gms</strong></p>',
       product_image:'skin_care_product_1.jpg',
       // product_price:'465',
-      product_price:'50'
+      product_price:'10'
     },
     {
       product_id:'4',
@@ -81,7 +81,7 @@ export class ProductDetailsComponent implements OnInit {
       product_description:'<p>No expensive medicines, no painful surgery!</p><p>In case of piles, the fear of surgery usually follows and we understand that an effective treatment is the need of hour. The Tablets cures Piles, and provide relief from the pain and discomfort caused by it. Natural and formulated ayurvedically, these tablets are efficient and safe.</p><p>Ingredients of the Tablets: Arshoghani Bati, Akik Pishti, Zimikand, Nagkeshar, Shodit Phitkari, Amla Churna, Swamagairic, Mishri, Bole and Bhawana Dravya.</p><p>Benefits of the Tablets:</p><p><ul><li>Relief from constipation, itching and bleeding</li><li>Reduces piles pain and inflammation</li><li>Provides support in chronict constipation</li><li>Improves digestion</li><li>Eliminates constipation</li><li>Treats burning sensation and uneasiness</li><li>Quickly stops bleeding</li><li>Heals and shrinks the hemorrhoids</li></ul></p><p>Product Specifications:</p><p><ul><li>Net Quantity: 50 Tablets</li><li>Ayurvedic Formulation</li><li>Natural product thus usually no side effects noted</li></ul></p>',
       product_image:'piles_care_tablet_1.jpg',
       // product_price:'500',
-      product_price:'50'
+      product_price:'10'
     },
     {
       product_id:'5',
@@ -90,7 +90,7 @@ export class ProductDetailsComponent implements OnInit {
       product_description:'<p><ul><li>Helps in liver problems As Fatty Liver -Liver Detox -Liver Cleanse</li><li>Liverguardia is a ayurvedic liver medicine that supports a healthy liver function by improving metabolic and liver health</li><li>A unique blend of over 18 vital botanicals Enriched with ayurvedic preparations.</li><li>Liverguardia is a Natural Ayurvedic Liver Protector.</li><li>Ayurvedic liver therapy, Provides all round protection to liver</li><li>Pack of 60 Tablets</li></ul></p>',
       product_image:'liver_care_tablet_1.jpg',
       // product_price:'700',
-      product_price:'50'
+      product_price:'10'
     }
     // , {
     //   product_id:'6',
