@@ -85,15 +85,15 @@ export class ProductDetailsComponent implements OnInit {
       product_description:'<p><ul><li>Helps in liver problems As Fatty Liver -Liver Detox -Liver Cleanse</li><li>Liverguardia is a ayurvedic liver medicine that supports a healthy liver function by improving metabolic and liver health</li><li>A unique blend of over 18 vital botanicals Enriched with ayurvedic preparations.</li><li>Liverguardia is a Natural Ayurvedic Liver Protector.</li><li>Ayurvedic liver therapy, Provides all round protection to liver</li><li>Pack of 60 Tablets</li></ul></p>',
       product_image:'liver_care_tablet_1.jpg',
       product_price:'700',
-    },
-    {
-      product_id:'6',
-      product_name:'LIBIUP Capsules',
-      category: 'sexual_health',
-      product_description:'<p>Testosterone is the primary sex chemical in men&#39;s bodies, which assumes an indispensable part in keeping your state of mind turned on alongside improving the improvement of the body. Testosterone chemical is liable for managing sex drive, building bone mass, further developing muscle strength, and working on the creation of sperm.</p><p>Testosterone increases as men age and contacts the top when you arrive at pubescence. Tragically, the youngsters these days are confronting terrible medical problems because of low testosterone. An uncommon drop in testosterone prompts diminished drive, subsequently causing you to have a surprise and dull outlook on your relationship.</p><p>In the Indian market, you observe different testosterone promoter cases, tablets, oils, gels, and creams. In any case, every one of these testosterone supporting enhancements is stacked with destructive synthetic compounds, and they adversely influence your well-being as opposed to further developing wellbeing.</p><p>To fix the issue of low testosterone chemicals, incline toward regular testosterone supporters (Porush yovan keet containers), which generally increase wellbeing by keeping you solid and dynamic. Porush yovan keet cases (best testosterone sponsor cases) contain normal Shilajit, Safed Musli, Vidarikanda, Ashwagandha, and Kaunch beej, which usually further develop t-levels in men.</p><p><strong>Pack of 60 Capsules</strong></p>',
-      product_image:'sexual_health_1.jpeg',
-      product_price:'900',
     }
+    // , {
+    //   product_id:'6',
+    //   product_name:'LIBIUP Capsules',
+    //   category: 'sexual_health',
+    //   product_description:'<p>Testosterone is the primary sex chemical in men&#39;s bodies, which assumes an indispensable part in keeping your state of mind turned on alongside improving the improvement of the body. Testosterone chemical is liable for managing sex drive, building bone mass, further developing muscle strength, and working on the creation of sperm.</p><p>Testosterone increases as men age and contacts the top when you arrive at pubescence. Tragically, the youngsters these days are confronting terrible medical problems because of low testosterone. An uncommon drop in testosterone prompts diminished drive, subsequently causing you to have a surprise and dull outlook on your relationship.</p><p>In the Indian market, you observe different testosterone promoter cases, tablets, oils, gels, and creams. In any case, every one of these testosterone supporting enhancements is stacked with destructive synthetic compounds, and they adversely influence your well-being as opposed to further developing wellbeing.</p><p>To fix the issue of low testosterone chemicals, incline toward regular testosterone supporters (Porush yovan keet containers), which generally increase wellbeing by keeping you solid and dynamic. Porush yovan keet cases (best testosterone sponsor cases) contain normal Shilajit, Safed Musli, Vidarikanda, Ashwagandha, and Kaunch beej, which usually further develop t-levels in men.</p><p><strong>Pack of 60 Capsules</strong></p>',
+    //   product_image:'sexual_health_1.jpeg',
+    //   product_price:'900',
+    // }
   ];
 
   product: any;
