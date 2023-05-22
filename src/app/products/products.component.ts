@@ -46,7 +46,8 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       category: 'diabetes_care',
       product_description:'The new Madhulife formulation is even more advanced with 8Ayurvedic herbs...',
       product_image:'madhur_life_diabetic_1.jpg',
-      product_price:'400',
+      // product_price:'400',
+      product_price:'50'
     },
     {
       product_id:'2',
@@ -54,7 +55,8 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       category: 'heart_care',
       product_description:'Well heart Powder is a trusted supplement for cardiovascular problems...',
       product_image:'heart_care_tablet_1.jpg',
-      product_price:'500',
+      // product_price:'500',
+      product_price:'50'
     },
     {
       product_id:'3',
@@ -62,7 +64,8 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       category: 'skin_care',
       product_description:'Your skin requires proper care and nourishment to look its best...',
       product_image:'skin_care_product_1.jpg',
-      product_price:'465',
+      // product_price:'465',
+      product_price:'50'
     },
     {
       product_id:'4',
@@ -70,7 +73,8 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       category: 'piles_management',
       product_description:'No expensive medicines, no painful surgery!...',
       product_image:'piles_care_tablet_1.jpg',
-      product_price:'500',
+      // product_price:'500',
+      product_price:'50'
     },
     {
       product_id:'5',
@@ -78,7 +82,8 @@ export class ProductsComponent implements OnInit, AfterViewInit {
       category: 'liver_care',
       product_description:'Ayurvedic liver therapy, Provides all round protection to liver...',
       product_image:'liver_care_tablet_1.jpg',
-      product_price:'700',
+      // product_price:'700',
+      product_price:'50'
     }
     // , {
     //   product_id:'6',
