@@ -11,8 +11,8 @@
             <div class="col-md-8 px-5">
                 <h2>{{product.product_name}}</h2>
                 <h5 [innerHtml]="product.product_description"></h5>
-                <!-- <button class="payButton" (click)="proceed()">Pay {{product.product_price | currency : '&#8377;'}}</button> -->
-                <button class="payButton" (click)="makePayment(product.product_price)">Pay {{product.product_price | currency : '&#8377;'}}</button>
+                <button class="payButton" (click)="proceed()">Pay {{product.product_price | currency : '&#8377;'}}</button>
+                <!-- <button class="payButton" (click)="makePayment(product.product_price)">Pay {{product.product_price | currency : '&#8377;'}}</button> -->
             </div>
         </div>
     </div>
